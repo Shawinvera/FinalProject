@@ -1,0 +1,137 @@
+body {
+    background-image: url('Land.jpg'); 
+    background-size: center; 
+    background-position: center; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #007bff;
+}
+
+header {
+    background: #007bff;
+    color: #e64a19;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover {
+    background: #000;
+}
+main {
+    text-align: center;
+    padding: 0.3rem;
+    font-weight: bold;
+}
+
+main h1 {
+    padding: 1.5rem;
+}
+
+main h1:hover {
+    background: #e64a19;
+}
+
+
+main p:hover {
+    background: #e64a19;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+}
+
+form label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    width: 100%;
+    padding: 0.5rem;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+footer {
+    background: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+
+}
+
+/* Additional styles for land listings */
+.listing-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.listing-item {
+    background: #e64a19;
+    border: 1px solid #e64a19;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 300px;
+    text-align: left;
+}
+
+.listing-item h2 {
+    margin-top: 0;
+}
+
+.listing-item .btn {
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    background: #007BFF;
+    color: #fff;
+    padding: 0.5rem;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.listing-item .btn:hover {
+    background: #0056b3;
+}
